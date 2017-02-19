@@ -1,4 +1,6 @@
-# …or create a new repository on the command line
+# Github push instructions
+
+### …or create a new repository on the command line
 
 ```
 echo "# pizza_orders" >> README.md

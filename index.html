@@ -1,0 +1,21 @@
+<!doctype html>
+<html ng-app="PizzaApp">
+	<head>
+		<meta charset="utf-8">
+		<script src="https://code.angularjs.org/1.6.2/angular.js"></script>
+		<script src="app.js"></script>
+	</head>
+	<body>
+		<div ng-controller="PizzaAppController1 as lac1">
+			<!--<p><span>{{lac1.message}}</span></p>
+			<p>Product 1 is: {{lac1.product}}</p>-->
+			<p>Topping 1 is: {{lac1.topping}}</p>
+			<p>Timestamp 1 is: {{lac1.timestamp}}</p>
+		</div>
+		<div ng-controller="PizzaAppController2 as lac2">
+			<!--<p><span>{{lac2.message}}</span></p>
+			<p>Product 2 is: {{lac2.product}}</p>-->
+			<p>Topping 2 is: {{lac2.topping}}</p>			
+		</div>		
+	</body>
+</html>
